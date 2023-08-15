@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;700&display=swap');
+body{
+    margin: 10px 0px 0px 0px;
+    font-family: 'Prompt', Tahoma;
+    font-size: 18px;
+    color: #595959;
+}
+a{
+    text-decoration: none;
+    color: #156FDA;
+    font-size: larger;
+}
+a:visited{
+    color: #5892da;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+input,textarea,button{
+    font-family: 'Prompt', Tahoma;
+}
+.textcenter{
+    text-align: center;
+}
+.textinput{
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 200px;
+}
+.textleft{
+    text-align: left;
+}
+.textTop{
+    vertical-align: text-top;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.ml20{
+    margin-left: 20px;
+}
+.button{
+    background-color: #C4C4C4;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90px;
+}
+.boxcenter{
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+}
+.clearfloat{
+    clear: both;
+}
+#box1{
+    width: 970px;
+    padding: 15px;
+    background-color: #F0EB91;
+    text-align: justify;
+    border-radius: 15px;
+}
+#row2{
+    margin-top: 10px;
+}
+#rowleft,#rowright{
+    float: left;
+    width: 480px;
+    padding: 10px;
+
+}
+#rowleft{
+    background-color: #9FF2E9;
+    border-radius: 15px 0px 0px 15px;
+}
+#rowright{
+    background-color: #DCC4EE;
+    border-radius: 0px 15px 15px 0px;
+}

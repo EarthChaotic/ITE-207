@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet" type="text/css"> <!--Main-->
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" type="text/css"> <!--Icon-->
+    <script src="ckeditor5/build/ckeditor.js"></script> <!--Text Box-->
+</head>
+<style>
+    .ck-content{
+            height: 318px;
+        }
+</style>
+<body>
+    <div id="box1" class="boxcenter">
+        <h2 align="center"><i class="far fa-address-card"></i> ข้อมูลพนักงาน</h2>
+        <table class="mt20 mb20" border="0" width="70%" cellpadding="9" cellspacing="3" align="center">
+            <thead bgcolor="AFAFAF">
+                <tr align="center" >
+                    <th>No.</th>
+                    <th>ชื่อ นามสกุล</th>
+                    <th>เบอร์ติดต่อ</th>
+                    <th>Email</th>
+                    <th>แผนก</th>
+                </tr>
+            </thead>
+            <tbody bgcolor="F0F0F0"> 
+                <tr>
+                    <td align="center">1.</td>
+                    <td>จิรพนธ์ ตรีสัพท์</td>
+                    <td>0982722449</td>
+                    <td>tr.jirapon_st@tni.ac.th</td>
+                    <td>IT</td>
+                </tr>
+                <tr>
+                    <td align="center">2.</td>
+                    <td>ภูริดา ทองสอาด</td>
+                    <td>0623208000</td>
+                    <td>purida.62@rsu.ac.th</td>
+                    <td>HR</td>
+                </tr>
+                <tr>
+                    <td align="center">3.</td>
+                    <td>ปุณณมา มาสุด</td>
+                    <td>0956401845</td>
+                    <td>ma.phunnama@tni.ac.th</td>
+                    <td>Marketting</td>
+                </tr>
+            </tbody>
+        </table>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    
+    </div> <!-- box1 -->
+    <div id="row2" class="boxcenter">
+        <div id="rowleft" class="boxcenter">
+            <h2 class="textcenter" ><i class="fas fa-building"></i> About us</h2>
+            <form method="post" action="">
+                <textarea name="content" class="editor"></textarea>
+            </form>
+    </div>
+        <div id="rowright">
+            <h2 class="textcenter" ><i class="fas fa-user-plus"></i> แบบฟอร์ม</h2>
+            <form method="POST" action="">
+            <table align="center" cellpadding="10">
+                <tbody>
+                    <tr>
+                        <th class="textleft">ชื่อ นามสกุล</th>        
+                        <td><input placeholder="กรุณากรอกชื่อ - นามสกุล" class="textinput" type="text" name="fullname"></td>
+                    </tr>
+                    <tr>
+                        <th class="textleft">Email</th>
+                        <td><input placeholder="xxx@xxx.xxx" class= "textinput" type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <th class="textleft">เบอร์ติดต่อ</th>
+                        <td><input placeholder="xxx-xxxxxxx" class= "textinput" type="number" name="Phonenumber"></td>
+                    </tr>
+                    <tr>
+                        <th class="textleft" ><label for="country">แผนก</label></th> 
+                        <td>
+                            <select class="textinput" id="country" name="country">
+                                <option value="Marketting">Marketting</option>
+                                <option value="IT">IT</option>
+                                <option value="HR">HR</option>
+                             </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="textleft">เพศ</th>
+                        <td>
+                            <input checked type="Radio" name="gender" value="male" id="genderM">
+                                <label for="genderM">ผู้ชาย</label>
+                            <input type="Radio" name="gender" value="female" id="genderF" class="ml20">
+                                <label for="genderF">ผู้หญิง</label>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">
+                            <input class="button" type="reset" value="Clear Data">
+                            <button class="button ml20" type="submit">Submit Data</button>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+        </div>
+        <br class="clearfloat">
+    </div>
+</body>
+</html>
+<script>ClassicEditor
+    .create( document.querySelector( '.editor' ), {
+        
+        licenseKey: '',
+        
+        
+        
+    } )
+    .then( editor => {
+        window.editor = editor;
+
+        
+        
+        
+    } )
+    .catch( error => {
+        console.error( 'Oops, something went wrong!' );
+        console.error( 'Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:' );
+        console.warn( 'Build id: b8vkcc796cgp-nohdljl880ze' );
+        console.error( error );
+    } );
+</script>

@@ -1,0 +1,82 @@
+@media (min-width: 1400px) { 
+    /* xxl */
+    #JBT1{
+        background: url("images/ocean.jpg");
+        background-size: cover;
+        background-position: center;
+        color: #FAFAFA;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) { 
+    /* xl */
+    #JBT1{
+        background: url("images/ocean.jpg");
+        background-size: cover;
+        background-position: center;
+        color: #FAFAFA;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    /* lg */
+    #JBT1{
+        background: url("images/nature.jpg");
+        background-size: cover;
+        background-position: center;
+        color: #FAFAFA;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    /* md */
+    #JBT1{
+        background: url("images/nature.jpg");
+        background-size: cover;
+        background-position: center;
+        color: #FAFAFA;
+    }
+}
+
+@media (max-width: 767px) {  
+    /* sm */
+    #JBT1{
+        background: url("images/nature.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+#PlaceHolder{
+    background: url("images/PlaceHolder.jpg");
+    background-position: center;
+    background-size: cover;
+}
+body{
+    margin-top: 65px;
+}
+.justify{
+    text-align: justify;
+}
+.maginleft15{
+    margin-left: 15px;
+}
+#navBar{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+#footer{
+    background-color: #4158D0;
+background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+#footer hr{
+    background-color: #424242;
+    height: 3px;
+    opacity: 100%;
+}
+#modalBG-Login{
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}

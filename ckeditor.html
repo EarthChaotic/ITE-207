@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+
+    <script src="ckeditor5/build/ckeditor.js"></script>
+    <style>
+        .ck-content{
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxcenter mt20">
+        <form method="post" action="">
+            <textarea name="content" class="editor"></textarea>
+        </form>
+    </div>
+</body>
+</html>
+<script>ClassicEditor
+    .create( document.querySelector( '.editor' ), {
+        
+        licenseKey: '',
+        
+        
+        
+    } )
+    .then( editor => {
+        window.editor = editor;
+
+        
+        
+        
+    } )
+    .catch( error => {
+        console.error( 'Oops, something went wrong!' );
+        console.error( 'Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:' );
+        console.warn( 'Build id: b8vkcc796cgp-nohdljl880ze' );
+        console.error( error );
+    } );
+</script>
