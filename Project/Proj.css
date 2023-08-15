@@ -1,0 +1,50 @@
+body{
+    margin-top: 65px;
+}
+a{
+    text-decoration: none;
+    color: #156FDA;
+}
+#Header{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(315deg, #D9AFD9 0%, #97D9E1 100%); 
+}
+.justify{
+    text-align: justify;
+}
+.maginleft15{
+    margin-left: 15px;
+}
+img.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navBar{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+#row3{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+#row3-right{
+    background: url(images/TOEIC.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+#row4{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+#row4-left{
+    background: url(images/Cover.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
